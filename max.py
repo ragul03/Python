@@ -1,6 +1,5 @@
-b=[]
-for i in range (0,3):
-  a=int(input())
-  b.append(a)
-print(max(b))
+a=input()
+a=a.split()
+b=[int(x) for x in a]
+print(max(a))
   
